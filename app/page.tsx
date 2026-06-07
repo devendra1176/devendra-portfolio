@@ -1,7 +1,11 @@
+import Hero from "@/components/Hero";
+import Problems from "@/components/Problems";
+
 export default function Home() {
   return (
     <main>
-      <h1>Hello Devendra</h1>
+      <Hero />
+      <Problems />
     </main>
   );
 }
